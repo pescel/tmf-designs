@@ -1,0 +1,80 @@
+body {
+  background: url("../static/images/ilnur-kalimullin-112314.jpg") no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-color: #09bad9;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+}
+
+.background-img {
+  background: url("../static/images/ilnur-kalimullin-112314.jpg") no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #020440;
+  letter-spacing: 2px;
+  margin: 80px 0px 10px 0px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #020440;
+  margin: 0 0 50px 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 90px 20px 90px;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+  color: #020454;
+  letter-spacing: 0.5px;
+}
+
+.intro-content {
+  padding: 0 115px;
+}
+
+.should-watch-content, .foolish-bottom-line-content {
+  float: right;
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.portfolio-link {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #020454;
+  background-color: #09bad9;
+  border: none;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  display: inherit;
+  text-align: center;
+  transition: border ease 0.3s, color ease 0.3s;
+  margin: 0px auto 70px auto;
+  width: 485px;
+}
+
+.portfolio-link:hover {
+  border-bottom: 2px solid #7c034c;
+  color: #7c034c;
+  font-weight: bold;
+
+}

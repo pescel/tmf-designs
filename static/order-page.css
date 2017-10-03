@@ -1,0 +1,100 @@
+.content-container {
+  margin: 0 auto;
+  padding: 50px 150px;
+}
+
+.video {
+  height: 337px;
+  width: 600px;
+  background-color: black;
+  margin: 0 auto 50px auto;
+}
+
+h1, h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+ h1 {
+   font-size: 45px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   margin: 0px 30px 50px 30px;
+ }
+
+ h2 {
+   font-size: 37px;
+   text-align: center;
+   line-height: 50px;
+ }
+
+ h3 {
+   font-size: 30px;
+   margin: 70px 0 40px 0;
+   letter-spacing: 1px;
+   line-height: 40px;
+ }
+
+ul {
+  margin-left: 30px;
+}
+
+p, h2, h4 {
+  font-family: "Arimo", sans-serif;
+}
+
+p {
+  margin: 30px 0px 40px 0px;
+  font-size: 18px;
+  color: black;
+  line-height: 25px;
+}
+
+.quote {
+  font-size: 30px;
+  padding: 0 165px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #2a5580;
+}
+
+.advisor-box {
+  border: 3px dashed #336699;
+  padding: 30px 75px;
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.brokamp-img, .gross-img {
+  float: right;
+  padding-left: 20px;
+}
+
+.brokamp-text, .gross-text {
+  margin-top: 55px;
+  padding: 25px;
+  font-size: 18px;
+}
+
+.options-stock-list, .instant-income-list, .how-would-it-feel-list {
+  list-style-type: none;
+  padding-left: 55px;
+}
+
+.options-stock-list {
+  background: url("../static/images/piggy-bank.svg") no-repeat top left;
+}
+
+.instant-income-list {
+  background: url("../static/images/money-bag.svg") no-repeat top left;
+  margin-bottom: 45px;
+  height: 40px;
+}
+
+.how-would-it-feel-list {
+  background: url("../static/images/growth.svg") no-repeat top left;
+  height: 50px;
+  margin-bottom: 45px;
+}
